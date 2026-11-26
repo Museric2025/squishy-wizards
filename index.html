@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Squishy Wizards | Coming Soon</title>
+
+    <meta name="description" content="Squishy Wizards - A Dungeons & Dragons podcast. Coming soon!">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #000;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            position: relative;
+            width: 95%;
+            max-width: 1000px;
+        }
+
+        .artwork {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .email-link {
+            position: absolute;
+            left: 24%;
+            top: 85%;
+            width: 53%;
+            height: 9%;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .email-link:hover {
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .email-link:focus-visible {
+            outline: 2px dashed #78c8ff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <img
+            src="squishy.png"
+            class="artwork"
+            alt="Squishy Wizards - Coming Soon!"
+        >
+
+        <a
+            class="email-link"
+            href="mailto:info@squishywizards.com"
+            aria-label="Email Squishy Wizards"
+            title="info@squishywizards.com"
+        ></a>
+
+    </main>
+
+</body>
+</html>
